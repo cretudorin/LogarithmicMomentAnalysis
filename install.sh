@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install python-setuptools python-dev build-essential -y
 sudo apt install python-pip -y
 sudo apt install virtualenv -y
 sudo apt install python-matplotlib -y
