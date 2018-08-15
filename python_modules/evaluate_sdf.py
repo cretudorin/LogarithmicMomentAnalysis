@@ -34,7 +34,7 @@ import warnings
 warnings.filterwarnings("always")
 
 datafile = "land_SM_dips.sdf"  # Stelar's data file (sdf)
-datadir = "input"  # data directory DO NOT CHANGE
+datadir = os.path.join( os.getcwd(), "..", "input")
 
 
 def export(save_path, profiles, the_header, fig):
